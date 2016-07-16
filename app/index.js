@@ -35,12 +35,10 @@ class App extends Component {
       .then((response) => response.json())
       .then((responseData) => {
         console.log(responseData);
-        if(responseData.statuses.length){
-          this.setState({
-            tweets: responseData.statuses
-          });
-          console.log(this.state.tweets);
-        }
+        this.setState({
+          tweets: responseData.statuses
+        });
+        console.log(this.state.tweets);
       })
       .catch((err) => console.log(err));
   }

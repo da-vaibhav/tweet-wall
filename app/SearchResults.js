@@ -6,10 +6,6 @@ class SearchResults extends Component {
     this.state = { query: '' };
   }
 
-  onComponentDidMount(){
-
-  }
-
   render(){
     let li;
     if(this.props.results.length){
