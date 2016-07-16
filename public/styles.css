@@ -1,0 +1,11 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.tweet {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #55acee;
+  margin-bottom: 15px;
+}
