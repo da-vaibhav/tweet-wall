@@ -14,7 +14,7 @@ class Search extends Component {
 
   render(){
     return(
-      <form>
+      <form className="search_form">
         <input type="text" autoComplete="on" ref="search_input"/> {' '}
         <input type="text" autoComplete="on" placeholder="enter geolocode, example De, En" ref="geocode"/> {' '}
         <select name="" id="" ref="lang">
